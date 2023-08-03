@@ -1,0 +1,5 @@
+CREATE TABLE items (
+    id BIGSERIAL PRIMARY KEY,
+    name VARCHAR(100),
+    value BIGINT NOT NULL
+);
